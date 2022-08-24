@@ -1,1 +1,4 @@
-def call()
+def call() {
+    sh 'pwd'
+    
+}

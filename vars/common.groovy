@@ -1,4 +1,6 @@
 def call() {
-    sh 'pwd' 
+    sh 'yarn install'
+    sh 'yarn run build'
+    sh 'yarn pack'
 }
 return this
